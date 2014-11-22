@@ -159,7 +159,7 @@ and does not have a corresponding standard deviation calculation.
 
 * The finall tidy data set is created with `write.table()` and saved in the working / project directory. Row names are excluded.
 
-#### Note: This data set is in Wide Format. Formatting decisions (long or wide) are guided by the problem we want to solve.  Since we do not have a specific problem set to apply the data to, the  variables are viewed as independent measurements of activity/subject actions (the form the data comes in). Hadley `[7]` `(p 4)` states that 
+#### Note: This data set is in Wide Format. Formatting decisions (long or wide) are guided by the problem we want to solve.  Since we do not have a specific problem set to apply the data to, the  variables are viewed as independent measurements of activity/subject actions (the form the data comes in). `[7]` Hadley  `(p 4)` states that 
 
 #### "Tidy data sets provide a standardized way to link the structure of a dataset (its physical layout) with its semantics (its meaning)." The wide format allows us group the data as it is grouped by activity, subject, and the corresponding  mean of each remaining measurement. "In tidy data:
 
@@ -169,7 +169,7 @@ and does not have a corresponding standard deviation calculation.
  
 3. Each type of observational unit forms a table." ([7] Hadley, p 4)  
  
-### The wide format is deemed to be a tidy data format.
+> The wide format is deemed to be a tidy data format.
 
 
 

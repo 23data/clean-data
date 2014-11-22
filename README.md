@@ -10,6 +10,7 @@ CodeBook.md. You should also include a README.md in the repo with your scripts. 
 repo explains how all of the scripts work and how they are connected.
 
 
+
 > One of the most exciting areas in all of data science right now is wearable computing - see
 for example this article (http://www.insideactivitytracking.com/data-science-activity-trackingand-the-battle-for-the-worlds-top-sports-brand/). Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. 
 
@@ -120,6 +121,7 @@ C. Reads in necessary data information: activity labels and feature names
 * The two datasets are merged with `rbind`
 
 * Labels the columns to enable extraction of measurements in step 2.
+* 
 
 2. Extracts only the measurements on the mean and standard deviation for  
 each measurement.
@@ -130,6 +132,7 @@ and does not have a corresponding standard deviation calculation.
 *  Inspect output to verify all subjects completed all activities.
 
 *  Removes any incomplete measurements. 
+*  
 
 3. Uses descriptive activity names to name the activities in the data set.
 
@@ -141,6 +144,7 @@ and does not have a corresponding standard deviation calculation.
 
 *  Tidy Data requires few or no capitals, no underscores and spaces.
 
+
 4. Appropriately labels the data set with descriptive variable names.
 
 * Example: `Gyro` becomes `gyroscope` 
@@ -148,6 +152,7 @@ and does not have a corresponding standard deviation calculation.
 * Removes puntuation and caps.
 
 * Removes duplicate words in names "BodyBody".
+
 
 5. Creates a second, independent tidy data set with the average of each 
 variable for each 1. activity and each 2. subject.

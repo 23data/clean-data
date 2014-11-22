@@ -155,7 +155,7 @@ and does not have a corresponding standard deviation calculation.
 
 #### 5. Creates a second, independent tidy data set with the average of each variable for each 1. activity and each 2. subject.
 
-* `ddpl()` is used to split the data frame, apply the function `mean()`, and return the results in a data frame.
+* `ddply()` is used to split the data frame, apply the function `mean()`, and return the results in a data frame.
 
 * The finall tidy data set is created with `write.table()` and saved in the working / project directory. Row names are excluded.
 
@@ -201,7 +201,12 @@ Albacete, Spain.
 
 7. Hadley Wickham. *Tidy Data* Journal of Statistical Software Volume VV, Issue II. <http://www.jstatsoft.org/>.
 
-8. The data set:
+8. David Hood.  Coursera Gtting and Cleaning Data Forum.
+ 
+ . <https://class.coursera.org/getdata-009/forum/>
+
+
+9. The data set:
 
 > Human Activity Recognition Using Smartphones Dataset  
 Version 1.0

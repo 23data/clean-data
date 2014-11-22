@@ -123,8 +123,7 @@ C. Reads in necessary data information: activity labels and feature names
 * Labels the columns to enable extraction of measurements in step 2.
  
 
-#### 2. Extracts only the measurements on the mean and standard deviation for  
-each measurement.
+#### 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 
 * I am ignoring `meanFreq()` because it is a weighted average and not a mean
 and does not have a corresponding standard deviation calculation.
@@ -154,8 +153,7 @@ and does not have a corresponding standard deviation calculation.
 * Removes duplicate words in names "BodyBody".
 
 
-#### 5. Creates a second, independent tidy data set with the average of each 
-variable for each 1. activity and each 2. subject.
+#### 5. Creates a second, independent tidy data set with the average of each variable for each 1. activity and each 2. subject.
 
 * `ddpl()` is used to split the data frame, apply the function `mean()`, and return the results in a data frame.
 

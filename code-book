@@ -54,7 +54,24 @@ measurement.*
 
 > The *average/mean* for the activity "walking" by subject 2 for the feature / variable "timedomainbodyaccelerometerstdx" (Standard Deviation of Body acceleration by time on the X axis)
 
-> Variable and level names were made more descriptive, punctuation removed and capitals were transformed to lowercase (tidy data). See readme.md for detailed information.
+> Variable and level names were made more descriptive, punctuation removed and capitals were transformed to lowercase (tidy data). 
+
+* Example: `Gyro` becomes `gyroscope` 
+
+* Example: `t` becomes `timedomain` 
+
+* Example: `f` becomes `freqdomain` 
+
+* Example: `Acc` becomes `accelerometer` 
+
+* Example: `Mag` becomes `magnitude` 
+
+* "tBodyAccmean-X"  becomes "timedomainbodyaccelerometermeanx "
+  
+* "tBodyGyromean-Z' becomes "timedomainbodygyroscopemeanz"  
+
+
+> See readme.md for detailed information.
 
 ### Dataframe:    180 observations of  62 variables in Wide Format.
 

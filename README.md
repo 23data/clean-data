@@ -159,7 +159,7 @@ and does not have a corresponding standard deviation calculation.
 
 * The finall tidy data set is created with `write.table()` and saved in the working / project directory. Row names are excluded.
 
-#### Format: 
+#### Format: Wide Format.
 
 This data set is in Wide Format. Formatting decisions (long or wide) are guided by the problem we want to solve.  Since we do not have a specific problem set to apply the data to, the  variables are viewed as independent measurements of activity/subject actions (the form the data comes in). `[7]` Hadley  `(p 4)` states that 
 

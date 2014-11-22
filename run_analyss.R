@@ -82,8 +82,8 @@ names(merged_data_mean_std) <- gsub('\\.|\\.',"",names(merged_data_mean_std), pe
 names(merged_data_mean_std) <- gsub('fBodyBody',"fbody",names(merged_data_mean_std))
 names(merged_data_mean_std) <- gsub('\\.|\\.',"",names(merged_data_mean_std), perl = TRUE)
 # Make names clearer for example replace "t" by "timedomain"
-names(merged_data_mean_std) <- gsub("^t", "timedomain", names(merged_data_mean_std))
-names(merged_data_mean_std) <- gsub("^f", "freqdomain", names(merged_data_mean_std))
+names(merged_data_mean_std) <- gsub("^t", "meantimedomain", names(merged_data_mean_std))
+names(merged_data_mean_std) <- gsub("^f", "meanfreqdomain", names(merged_data_mean_std))
 names(merged_data_mean_std) <- gsub("Gyro", "gyroscope", names(merged_data_mean_std))
 names(merged_data_mean_std) <- gsub("Acc", "accelerometer", names(merged_data_mean_std))
 names(merged_data_mean_std) <- gsub("Mag", "magnitude", names(merged_data_mean_std))

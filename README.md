@@ -148,7 +148,7 @@ and does not have a corresponding standard deviation calculation.
 
 * Example: `Gyro` becomes `gyroscope` 
 
-* Removes puntuation and caps.
+* Removes punctuation and caps.
 
 * Removes duplicate words in names "BodyBody".
 

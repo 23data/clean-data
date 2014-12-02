@@ -1,4 +1,4 @@
-### Getting and Cleaning Data. course ended 1 Dec 2014, removed code
+### Getting and Cleaning Data, course ended 1 Dec 2014, removed code
 
 ### Your effective grade is 41/41
 
